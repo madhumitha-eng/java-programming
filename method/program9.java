@@ -4,11 +4,11 @@ public class Main
 	public static void main(String[] args) {
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
-	    int res=rev(n);
+	    int res=digit(n);
 	    System.out.print(res);
 	    
 	}
-	public static int rev(int n){
+	public static int digit(int n){
 	    int count=0;
 	    while(n>0){
 	        int digit=n%10;
