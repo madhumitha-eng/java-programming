@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Main{
-public static void duplicate(int arr[],int size){
+public static void frequency(int arr[],int size){
     boolean visited[]=new boolean[size];
     for (int i=0;i<size;i++){
     if(visited[i])
@@ -22,6 +22,6 @@ public static void main(String[]args){
     for(int i=0;i<size;i++){
         arr[i]=sc.nextInt();
     }
-    duplicate(arr,size);
+    frequency(arr,size);
 }
 }
